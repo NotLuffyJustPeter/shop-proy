@@ -1,0 +1,145 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dark .container-form{ 
+    background-color:#242526;
+}
+
+.contacto-bg{
+background-color: #7198E8;
+width: 60%;
+height: 80%;
+
+
+}
+
+.btn{
+    background-color: #ff6e80 !important;
+}
+
+.contacto-title{
+    background-color: #ff6e80;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.contact-seccion {
+display: flex;
+align-items: center;
+gap: 20px; /* Espacio entre el icono y el texto */
+}
+
+.contact-seccion i{
+    position: relative;
+    background-color: var(--derechos);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+
+
+    /* top: -10px; */
+}
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: var(--derechos);
+    text-align: center;
+    transition: all .3s ease;
+}
+
+
+.box .red-social a:hover{
+    background-clip: text;
+    border-radius: 20%;
+    transform: scale(1.5);
+    color:#285AEB;
+    background-color:transparent;
+
+}
+
+.box .red-social .youtube:hover{
+ 
+    background-clip: text;
+    border-radius: 20%;
+    transform: scale(1.5);
+    color:#ff0000;
+    background-color:transparent;
+
+}
+
+.red-social .instagram:hover{
+    background-clip: text;
+    border-radius: 20%;
+    transform: scale(1.5);
+    background-color:transparent;
+
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+@media (max-width: 768px) {
+    /* Estilos que se aplicarán cuando el ancho de la pantalla sea 768px o menos */
+  .contact-container{
+    flex-direction: column;
+  }
+}
+.dark .contact-seccion i,
+.dark .red-social a{
+    background-color: #242526;
+    color: #CCC; /* Cambia el color del enlace en modo oscuro */
+}
+
+
+
+.dark .contacto{
+    background-color: #242526;
+    color: #ccc;
+
+}
+
+.dark .contacto-title{
+    background-color: #242526;
+    color: #ccc;
+}
+
+.dark .contacto-bg{
+    background-color: #18191A;
+    color: #ccc;
+}
+
+.dark .btn{
+    background-color: #1a92f1 !important;
+    color: #ccc;
+}

@@ -1,0 +1,78 @@
+.modifi-accordion {
+  background-color: #ff6e80; /* Fondo negro */
+  color: #fff;
+  font-size: 1.8rem; /* Cambia el tamaño de fuente del botón */
+   /* Color de texto blanco o el que desees */
+}
+
+/* Estilos del cuerpo del acordeón en modo oscuro */
+.modifi-accordion .accordion-body {
+  background-color: #ff6e80; /* Cambia el color del cuerpo según tu preferencia */
+  color: #fff;
+
+}
+
+  /* Estilos del botón del acordeón en modo oscuro */
+  .modifi-accordion .accordion-button {
+    background-color: #cfe2ff; /* Cambia el color del botón según tu preferencia */
+    color: #000; /* Cambia el color del texto del botón según tu preferencia */
+    font-size: 1.8rem; /* Cambia el tamaño de fuente del botón */
+  }
+
+  .dark .modifi-accordion .accordion-button {
+    background-color: #91918F; /* Cambia el color del botón según tu preferencia */
+    color: #ccc; /* Cambia el color del texto del botón según tu preferencia */
+    font-size: 1.8rem; /* Cambia el tamaño de fuente del botón */
+  }
+
+.dark .modifi-accordion {
+  background-color: #000 ;  /* Fondo negro */
+  color: #fff;
+  font-size: 1.8rem; /* Cambia el tamaño de fuente del botón */
+   /* Color de texto blanco o el que desees */
+}
+
+.dark .modifi-accordion .accordion-body {
+  background-color: #18191A ; /* Cambia el color del cuerpo según tu preferencia */
+  color: #fff;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-preguntas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid rgb(5, 28, 97);
+}
+
+.card-preguntas img{
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán cuando el ancho de la pantalla sea 768px o menos */
+.card-container{
+  flex-direction: column;
+}
+
+}
+
+.dark .card-container .card-preguntas{
+  background-color: #18191A;
+  color: #fff;
+}
