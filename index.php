@@ -20,7 +20,6 @@
           <div class="slide swiper-slide">
             <img src="images/omar.jpg" alt="" class="image" />
             <p class="fs-4">
-             Me Gustan las vergas bien duras negras y grandes me como de a dos
             </p>
             <div class="details">
               <span class="name">Omar Reyes Ramirez</span>
